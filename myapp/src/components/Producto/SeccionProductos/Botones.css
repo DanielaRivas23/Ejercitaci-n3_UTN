@@ -1,0 +1,50 @@
+
+.flex-botones {
+    display: block;
+}
+
+.flex-incremento {
+    display: flex;
+    justify-content: center;
+}
+
+.boton-incremento button {
+    border: 2px solid var(--colorIncremento);
+    background-color: var(--bgPrincipal);
+    color: var(--colorParrafo); 
+    font-size: 2rem;
+    width: 100%;
+    cursor: pointer;
+}
+.flex-incremento input {
+    border: 1px solid var(--bgPrincipal);
+    background-color: var(--colorIncremento);
+    color: var(--colorParrafo);
+    width: 5rem;
+    padding-left: 2rem;
+}
+.boton-naranja button {
+    display: block;
+    border: 1px solid var(--colorParrafo);
+    background-color: white;
+    color: var(--colorIncremento);
+    font-size: 1.3rem;
+    padding: 1.6rem;
+    margin: .5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+}
+@media (min-width: 600px) {
+    .boton-naranja {
+        display: flex;
+    }
+    .flex-incremento, .flex-botones {
+        display: flex;
+        justify-content: center;
+    }
+    .boton-incremento button {
+        height: 50%;
+    }
+}
+

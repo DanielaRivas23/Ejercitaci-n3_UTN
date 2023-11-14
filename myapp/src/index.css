@@ -1,0 +1,61 @@
+:root {
+    --wine: #a02f2c;
+    --bgPrincipal: #0a0c0b;
+    --bgSecundario: #d9932f;
+    --bgfooter: #060706;
+    --colorIncremento: #212121;
+    --colorParrafo: #c5c5c5;
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.contenedor {
+    background: var(--bgPrincipal);
+    font-family: 'Arial', sans-serif;
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    font-size: 1.5rem;
+    color: var(--colorParrafo);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+}
+a:hover {
+    color: var(--bgSecundario);
+}
+
+h1 {
+    font-size: 5rem;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 2rem;
+}
+
+.botones button {
+    cursor: pointer;
+}
+.botones button:hover {
+    background-color: var(--bgSecundario);
+    color: white;
+    border: none;
+}

@@ -1,0 +1,34 @@
+.flexIconos__stars {
+    display: flex;
+    justify-content: center;
+}
+
+.star {
+    margin: 1.5rem 0 0 0;
+}
+.light-star {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+
+}
+.opiniones {
+    margin: 0 0 4rem 0;
+}
+.precio {
+    font-size: 2rem;
+    margin-top: 1.3rem;
+    color: var(--bgSecundario);
+}
+
+@media (min-width: 420px) {
+    .flexIconos {
+        display: flex;
+        justify-content: center;
+    }
+    .opiniones {
+        margin: 1.5rem 0 0 1rem;
+    }
+    .star {
+        margin: 1.5rem 0 0 2rem;
+    }
+}

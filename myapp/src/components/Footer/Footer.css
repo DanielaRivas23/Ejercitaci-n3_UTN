@@ -1,0 +1,32 @@
+.nav-footer a{
+    font-size: 1.5rem;
+}
+
+.contenido-footer {
+    background-color: var(--bgfooter);
+    text-align: center;
+    padding: 2rem;
+    border-top: 3px solid  #181b19;
+}
+
+h3 {
+    color: var(--bgSecundario);
+}
+.redes {
+    display: flex;
+    justify-content: center;
+}
+.redes p {
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 0;
+}
+.flex-contacto {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-contacto p {
+    margin: .2rem;
+    font-size: 1.5rem;
+}
