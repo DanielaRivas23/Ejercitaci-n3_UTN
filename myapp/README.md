@@ -3,7 +3,7 @@
 Este proyecto fue desarrollado como parte de un ejercicio práctico en un curso de React de la UTN. La consigna principal fue crear el maquetado de una página de detalle de un producto para un sitio de ecommerce.
 
 ## Capturas de Pantalla
-![Demo](./imagenWineShop.png)
+![Demo](./public/wineShop.png)
 
 ## Funcionalidades Implementadas
 1. Visualización de Datos:
