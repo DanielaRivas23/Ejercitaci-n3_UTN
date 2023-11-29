@@ -23,3 +23,46 @@ section {
         margin-top: 0;
    }
 }
+
+.mensaje {
+     background-color: var(--bgSecundario);
+     color: white;
+     padding: 2rem;
+     font-size: 1.8rem;
+     text-transform: uppercase;
+     margin-bottom: 0;
+}
+.agotado {
+     background-color: var(--wine);
+     color: white;
+     padding: 2rem;
+     font-size: 1.8rem;
+     text-transform: uppercase;
+     margin-bottom: 0;
+}
+
+.visible {
+     display: block;
+}
+   
+.oculto {
+     display: none;
+}
+
+/* Carrusel */
+
+.carrusel {
+     display: flex;
+     /* justify-content: space-between; */
+     margin-bottom: 10px;
+}
+   
+.carrusel img {
+     width: 40px; 
+     cursor: pointer;
+}
+   
+.carrusel img:hover {
+     border: 2px solid var(--wine); 
+}
+   

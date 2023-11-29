@@ -1,5 +1,3 @@
-import viteLogo from '/vite.svg'
-import './App.css'
 import Producto from './components/Producto/Producto'
 
 function App() {
