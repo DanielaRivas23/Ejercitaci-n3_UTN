@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Botones.css';
 
-const Botones = () => {
+const Botones = ({onCompra, disponibilidad}) => {
     const [cantidad, setCantidad] = useState(1);
 
     const decrementar = () => {
@@ -11,9 +11,13 @@ const Botones = () => {
     }
 
     const incrementar = () => {
-        if (cantidad < 3) { 
+        if (cantidad < disponibilidad) { 
             setCantidad(cantidad + 1);
         }
+    }
+
+    const handleCompra = () => {
+        onCompra(cantidad);
     }
 
     return (
@@ -27,8 +31,7 @@ const Botones = () => {
                 </div>
             </div>
             <div className='botones boton-naranja'>
-                <button>Agregar al Carrito</button>
-                <button>Agregar a Favoritos</button>
+                <button onClick={handleCompra}>Comprar</button>
             </div>
         </div>
     );
